@@ -1,0 +1,84 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para o menu */
+  .menu {
+    text-align: center;
+    background-color: #6a5acd; /* Lilás */
+    padding: 10px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 0 10px;
+    background-color: #87cefa; /* Azul Claro */
+  }
+  
+  /* Estilos para botões */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-primary {
+    background-color: #6a5acd; /* Lilás */
+    color: #fff;
+  }
+  
+  .button-secondary {
+    background-color: #87cefa; /* Azul Claro */
+    color: #fff;
+  }
+  
+  .button-success {
+    background-color: #98fb98; /* Verde Claro */
+    color: #333;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 600px) {
+    .menu a {
+      display: block;
+      margin: 5px 0;
+    }
+
+    /* Adiciona estilos para centralizar itens no mobile */
+    .form {
+      text-align: center;
+    }
+
+    /* Remove margem superior dos campos do formulário no mobile */
+    .input-group {
+      margin-top: 0;
+    }
+  }

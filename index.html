@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Conversor de Unidades</title>
+</head>
+<body>
+
+<h1>Conversor de Unidades</h1>
+
+<select id="category" onchange="updateUnits()">
+  <option value="dataStorage">Armazenamento de Dados</option>
+  <option value="dataSpeed">Velocidade de Dados</option>
+  <option value="processingFrequency">Frequência de Processamento</option>
+  <option value="energy">Energia</option>
+</select>
+
+<input type="number" id="inputValue" placeholder="Insira o valor">
+<select id="fromUnit">
+  <!-- Opções preenchidas dinamicamente com JavaScript -->
+</select>
+
+<span>para</span>
+
+<select id="toUnit">
+  <!-- Opções preenchidas dinamicamente com JavaScript -->
+</select>
+
+<button onclick="convert()">Converter</button>
+
+<p id="result">Resultado: </p>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
