@@ -33,7 +33,7 @@ Um aplicativo simples para converter unidades em diferentes categorias, como arm
 
 ## GitPages
 
-Este projeto está disponível no GitHub Pages. Acesse [aqui](URL_DO_SEU_GITPAGES) para experimentar o Conversor de Unidades online.
+Este projeto está disponível no GitHub Pages. [Acesse aqui](https://fabiovitorino97.github.io/js-conversor-techunits/) para experimentar o Conversor de Unidades online.
 
 ## Contribuições
 
